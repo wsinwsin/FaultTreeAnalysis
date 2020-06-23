@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.8.2"
+
+install:
+  - python setup.py install
+    
+script:
+  - pytest
