@@ -9,6 +9,7 @@ from graphviz import Graph
 def _draw(x):
     dotf = x.todot()
     g = pydotplus.graph_from_dot_data(dotf)
+    g.progs = {'dot': u"C:\\Graphviz2.38\\bin\\dot.exe"} 
     return Image(g.create_png())
 
 
