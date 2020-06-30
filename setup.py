@@ -10,7 +10,7 @@ setup(
     description="Tool to convert FaultTree to BDD",
     long_description="",
     url="https://github.com/wsinwsin/FaultTreeAnalysis",
-    install_requires=['IPython', 'pybind11', 'numpy', 'pydotplus', 'graphviz', 'image'],
+    install_requires=['IPython', 'pybind11', 'numpy', 'pydotplus', 'graphviz'],
     test_suite='tests',
     packages=setuptools.find_packages()
 )
