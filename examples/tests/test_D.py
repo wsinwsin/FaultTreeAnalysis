@@ -6,6 +6,15 @@ import src.D_4 as D_4
 import src.D_5 as D_5
 import src.D_6 as D_6
 
+'''
+def D(a):
+    if a>10:
+        return True
+    if a >5:
+        return True
+'''
+
+
 def test_D_1_1():
     a = 12
     assert D_1.D_1(a)==True
